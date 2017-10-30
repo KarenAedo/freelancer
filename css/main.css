@@ -1,3 +1,477 @@
 /*
  * Estilos de tu proyecto
+ font-family: 'Lato', sans-serif; (tipografía)
+ font-family: 'Montserrat', sans-serif; (tipografía)
+ azul oscuro:#212529;
+ Paleta de colores: #2c3e50, #18bc9c, #212529.
+
  */
+
+body { 
+	margin: 0;
+	padding: 0;
+}
+
+
+		/* ---------------Primera parte - MENÚ ESTÁTICO--------------- */
+
+nav {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: #2c3e50;
+	line-height: 108px;
+	overflow: auto;
+}
+
+
+li {
+	/* display: inline-block; */
+	float: right;
+	text-align: center;
+	padding: 5px;
+	/* le quité width no sé por qué */
+
+}
+
+
+.menuLadoIzquierdo{
+	float:left;
+	width: 300px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+
+.aMenuLadoIzquierdo{
+	text-decoration: none;
+	display: block;
+	color: white;
+	font-size: 30px;
+}
+
+.ultimaLi{
+	margin-right: 50px;
+}
+
+
+.menuLadoDerecho {
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+
+.menuLadoDerecho:hover {
+	color: #18bc9c;
+}
+
+
+			/* ---------------Segunda parte - ENCABEZADO--------------- */
+
+.encabezado{
+	width:100%;
+	background: #18bc9c;
+	text-align: center;
+}
+
+.perfil{
+	margin-top: 90px;
+}
+
+h1{
+	font-size: 76px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 0.5;
+}
+
+
+/* -----Estrella y líneas BLANCA----- */
+.lineasYestrella1{
+	text-align: center;
+	padding-bottom: 12px;
+}
+
+.hr1a{
+	width: 100px;
+	height: 5px;
+	background: #ffffff;
+	border: none;
+	display: inline-block;
+}
+
+.star1{
+	color: #ffffff;
+	margin-left: 10px;
+	margin-right: 2px;
+	font-size: 32px;
+	line-height: 0;
+}
+
+.hr2a{
+	width: 100px;
+	height: 5px;
+	background: #ffffff;
+	border: none;
+	display: inline-block;
+}
+
+.wgu{
+	color: white;
+	font-size: 28px ;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 100px;
+}
+
+
+		/* --------------- Tercera parte - PORTAFOLIO --------------- */
+
+.portfolio{
+	width: 100%;
+	background: #ffffff;
+
+}
+
+.tituloPortafolio{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	color: #212529;
+	text-align: center;
+	padding-top: 80px;
+	line-height: 0;
+}
+
+/* -----Estrella y líneas AZUL----- */
+.lineasYestrella2{
+	text-align: center;
+	padding-bottom: 12px;
+}
+
+.hr1{
+	width: 100px;
+	height: 5px;
+	background: #2c3e50;
+	border: none;
+	display: inline-block;
+}
+
+.star2{
+	color: #2c3e50;
+	margin-left: 10px;
+	margin-right: 2px;
+	font-size: 32px;
+}
+
+.hr2{
+	width: 100px;
+	height: 5px;
+	background: #2c3e50;
+	border: none;
+	display: inline-block;
+}
+
+/* -----Imágenes----- */
+.img1, .img2, .img3, .img4, .img5, .img6{
+	width: 27.5%;
+}
+
+.primerGrupo, .segundoGrupo{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.img2, .img5{
+	margin-left: 25px; 
+	margin-right: 25px;
+}
+
+.segundoGrupo{
+	padding-bottom: 87px;
+}
+
+
+
+		/* --------------- Cuarta parte - ABOUT ---------------  */
+
+.about{
+	width: 100%;
+	background: #18bc9c;
+	text-align: center;
+}
+
+.tituloAbout{
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	color: white;
+	
+	padding-top: 127px;
+	line-height: 0;
+}
+
+/* -----Estrella y líneas BLANCA----- */
+.lineasYestrella1{
+	text-align: center;
+	padding-bottom: 12px;
+}
+
+.hr1a{
+	width: 100px;
+	height: 5px;
+	background: #ffffff;
+	border: none;
+	display: inline-block;
+}
+
+.star1{
+	color: #ffffff;
+	margin-left: 10px;
+	margin-right: 2px;
+	font-size: 32px;
+	line-height: 0;
+}
+/* -----PARRAFO 1----- */
+.parrafo1{
+	font-family: 'Lato', sans-serif; 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: left;
+	line-height: 1.5;
+	display: inline-table;
+	width: 350px;
+}
+/* -----PARRAFO 2----- */
+.parrafo2{
+	font-family: 'Lato', sans-serif; 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: left;
+	line-height: 1.5;
+	display: inline-table;
+	width: 350px;
+	margin-left: 25px;
+}
+
+
+/* -----BOTON DESCARGA----- */
+.buttonDownload{
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	margin: 20px;	
+	padding: 15px 5px;
+	width: 200px;
+	border: 2px solid #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+}
+.buttonDownload{
+	margin-bottom: 50px;
+}
+
+.buttonDownload span{
+	margin-right: 5px;
+}
+
+/* -----EFECTO HOVER----- */
+
+
+
+
+		/* ---------------Quinta parte - CONTACT ME---------------  */
+
+.contact{
+	width: 100%;
+	background: #ffffff;
+}
+
+.tituloContactMe{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	color: #212529;
+	text-align: center;
+	padding-top: 80px;
+	line-height: 0;
+}
+
+/* -----Estrella y alíneas AZUL----- */
+.lineasYestrella2{
+	text-align: center;
+	padding-bottom: 12px;
+}
+
+.hr1{
+	width: 100px;
+	height: 5px;
+	background: #2c3e50;
+	border: none;
+	display: inline-block;
+}
+
+.star2{
+	color: #2c3e50;
+	margin-left: 10px;
+	margin-right: 2px;
+	font-size: 32px;
+}
+
+.hr2{
+	width: 100px;
+	height: 5px;
+	background: #2c3e50;
+	border: none;
+	display: inline-block;
+}
+
+/* -----FORMULARIO----- */
+form{
+	text-align: center;
+	padding-top: 40px;
+}
+
+input{
+	width: 55%;
+	margin-bottom: 30px;
+	border: none;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	padding: 6px;
+}
+
+#campoTexto{
+    border-bottom: 1px solid #eee;
+	padding-bottom: 35px;
+}
+
+#campoTexto1{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 180px;
+}
+
+/* -----BOTON DESCARGA----- */
+.botonEnviar{
+	margin-left: 290px;
+	
+	margin-bottom: 100px;
+}
+
+.buttonSend{
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 600;
+	font-stretch: condensed;
+	text-align: center;
+	padding: 12px 10px;
+	width: 60px;
+	background: #18bc9c;
+	border: 1px solid color:#18bc9c; 
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.buttonSend:hover{
+	color: #ffffff;
+	background: #128f76;
+	border: #11866f;
+}
+
+
+		/* ---------------Sexta parte - FOOTER---------------  */
+.piePagina{
+	width: 100%;
+	background: #2c3e50;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.direccion{
+	width: 210px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 40px;
+	display: inline-table;
+	margin-left: 100px;
+	line-height: 2;
+}
+
+.type1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+
+.type2{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+
+.laWeb{
+	width: 400px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: : 50px;
+	display: inline-table;
+	margin-left: 40px;
+	text-align: center;
+	line-height: 2;
+}
+
+.fa-facebook, .fa-google-plus, .fa-twitter, .fa-linkedin,.fa-dribbble{
+	font-size: 20px;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	width: 25px;
+	height: 25px;
+	-moz-border-radius: 60%;
+    -webkit-border-radius: 60%;
+    border-radius: 60%;
+    margin: 15px 4px 4px 4px;
+    text-align: center;
+	padding: 11px;
+}
+
+.fa-facebook:hover, .fa-google-plus:hover, .fa-twitter:hover, .fa-linkedin:hover,.fa-dribbble:hover{
+	background: #ffffff;
+	color: #18bc9c;
+}
+
+.sobreFreelancer{
+	width: 350px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 40px;
+	display: inline-table;
+	margin-right: 30px;
+	line-height: 2;
+}
+
+.type3{
+	text-decoration: none;
+	color: #18bc9c;
+}
+
+.copyright{
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+
+
+}
